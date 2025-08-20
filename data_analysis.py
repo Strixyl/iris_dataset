@@ -25,6 +25,14 @@ print("Average Flower Lengthl", avg_petal_length)
 print("Average Flower Lengthl", avg_petal_width)
 
 
+from sklearn.datasets import load_wine
+
+wine = load_wine()
+x, y = wine.data, wine.target
+
+
+
+
 
 
     
